@@ -1,3 +1,5 @@
+'use strict';
+
 var correctCount = 0;
 var incorrectCount = 0;
 
