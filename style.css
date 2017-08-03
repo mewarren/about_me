@@ -3,8 +3,8 @@ body{
 }
 
 header{
-  height: 144px;
-
+  height: 72px;
+  margin: 0px;
 }
 
 div{
@@ -22,13 +22,13 @@ h1, p{
 }
 
 h1{
-  font-size: 144px;
+  font-size: 72px;
   vertical-align: text-top;
 }
 
 p{
-  font-size: 72px;
-  line-height: 84px;
+  font-size: 54px;
+  line-height: 60px;
   vertical-align: text-top;
   
 }
