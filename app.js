@@ -77,15 +77,15 @@ var correctResponses = [ 'california',
                          'football',
                          'tacos',
                          '2' ];
-var ifGoodAnswers = [ 'Yes! I was bred and born in the Golden State!',
+var ifGoodAnswers = [ 'Yes! I was bred and born in                       the Golden State!',
                       'Of course! I love sports!',
                       'Right on! Let\'s go Raiders!',
                       'Yes! I love me some tacos.',
                        ];
-var ifBadAnswers = [ 'no1',
-                     'no2',
-                     'no3',
-                     'no4'];
+var ifBadAnswers = [ 'Not even close. I\'m from                         sunny California.',
+                     'Of course! I love sports!',
+                     'Nope. Die hard for Raiders football.',
+                     'Taco Guy. Tortillas are agruably the greatest culinary creation of all time!'];
 
 //singleAnswer("fave color", "blue", "sweet", "not sweet"); //test
 firstQuestion(questions, correctResponses, ifGoodAnswers, ifBadAnswers);
