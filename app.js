@@ -3,15 +3,12 @@
 var correctCount = 0;
 var incorrectCount = 0;
 
+alert( 'Hello!' );
 
-// alert( 'Hello!' );
+var name = prompt( 'What is your name?' );
+console.log( name );
 
-// var name = prompt( 'What is your name?' );
-// console.log( name );
-
-// alert( 'Hi ' + name + ', I would like to see how well you know me.' );
-
-// geography(); // prompts q n' a
+alert( 'Hi ' + name + ', I would like to see how well you know me.' );
 
 function geography() {
   var state = prompt( 'What state am I from?' ).toLowerCase();
@@ -77,19 +74,18 @@ var correctResponses = [ 'california',
                          'football',
                          'tacos',
                          '2' ];
-var ifGoodAnswers = [ 'Yes! I was bred and born in                       the Golden State!',
+var ifGoodAnswers = [ 'Yes! I was bred and born in the Golden State!',
                       'Of course! I love sports!',
                       'Right on! Let\'s go Raiders!',
                       'Yes! I love me some tacos.',
                        ];
-var ifBadAnswers = [ 'Not even close. I\'m from                         sunny California.',
+var ifBadAnswers = [ 'Not even close. I\'m from sunny California.',
                      'Of course! I love sports!',
                      'Nope. Die hard for Raiders football.',
                      'Taco Guy. Tortillas are agruably the greatest culinary creation of all time!'];
 
-//singleAnswer("fave color", "blue", "sweet", "not sweet"); //test
-firstQuestion(questions, correctResponses, ifGoodAnswers, ifBadAnswers);
 
+firstQuestion(questions, correctResponses, ifGoodAnswers, ifBadAnswers);
 
 function firstQuestion(questionsF, correctResponsesF, ifGoodAnswersF, ifBadAnswersF) {  // all parameters arrays
   for(var i = 0; i < questionsF.length; i++) {
@@ -110,13 +106,6 @@ function singleAnswer(question, correctResponse, ifGoodAnswer, ifBadAnswer) { //
     incorrectCount++;
   }
 }
-
-// var singleAnswer = function(parameters:optional) {
-//   what's happening
-//   CODE BLOCK
-
-// };
-
 
 function oregon() {
   var correctGuess = 2;
